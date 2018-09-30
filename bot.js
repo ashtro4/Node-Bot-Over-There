@@ -40,7 +40,7 @@ bot.on('message', message => {
         }
         if (command === 'car') {
             var car = randint(1,12)
-            var arr = ["cars1.jpeg","cars2.jpeg","cars3.jpg","cars4.webp","cars5.jpg","cars1.webp","cars7.jpeg","cars8.jpg","cars9.jpg","cars10.jpg","cars11.jpg","cards12.jpeg"
+            var arr = ["cars1.jpeg","cars2.jpeg","cars3.jpg","cars4.webp","cars5.jpg","cars1.webp","cars7.jpeg","cars8.jpg","cars9.jpg","cars10.jpg","cars11.jpg","cards12.jpeg"]
             if (car === 1) {
                 message.channel.send({
                 files: [
