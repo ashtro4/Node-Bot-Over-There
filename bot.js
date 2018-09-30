@@ -40,90 +40,15 @@ bot.on('message', message => {
         }
         if (command === 'car') {
             var car = randint(1,12)
+            var arr = ["cars1.jpeg","cars2.jpeg","cars3.jpg","cars4.webp","cars5.jpg","cars1.webp","cars7.jpeg","cars8.jpg","cars9.jpg","cars10.jpg","cars11.jpg","cards12.jpeg"]
             if (car === 1) {
                 message.channel.send({
                 files: [
-                   "cars1.jpeg"
+                   arr[car]
                 ]
                 })
-            }
-            if (car === 2) {
-                message.channel.send({
-                files: [
-                    "cars2.jpeg"
-                ]
-                })
-            }
-            if (car === 3) {
-                message.channel.send({
-                files: [
-                    "cars3.jpg"
-                ]
-                })
-            }
-            if (car === 4) {
-                message.channel.send({
-                files: [
-                    "cars4.webp"
-                ]
-                })
-            }
-            if (car === 5) {
-                message.channel.send({
-                files: [
-                    "cars5.jpg"
-                ]
-                })
-            }
-            if (car === 6) {
-                message.channel.send({
-                files: [
-                    "cars1.webp"
-                ]
-                })
-            }
-            if (car === 7) {
-                message.channel.send({
-                files: [
-                    "cars7.jpeg"
-                ]
-                })
-            }
-            if (car === 8) {
-                message.channel.send({
-                files: [
-                    "cars8.jpg"
-                ]
-                })
-            }
-            if (car === 9) {
-                message.channel.send({
-                files: [
-                    "cars9.jpg"
-                ]
-                })
-            }
-            if (car === 10) {
-                message.channel.send({
-                files: [
-                    "cars10.jpeg"
-                ]
-                })
-            }
-            if (car === 11) {
-                message.channel.send({
-                files: [
-                    "cars11.jpg"
-                ]
-                })
-            }
-            if (car === 12) {
-                message.channel.send({
-                files: [
-                    "cars12.jpeg"
-                ]
-                })
-            }
+            
+
         }
     }
 });
